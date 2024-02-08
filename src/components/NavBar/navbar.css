@@ -1,0 +1,15 @@
+@media only screen and (max-width: 900px) {
+  .img-chocobo {
+    display: none; /* Oculta la imagen en dispositivos móviles */
+  }
+
+  .img-chocobo-mobile {
+    display: block; /* Muestra la imagen en dispositivos móviles */
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .img-chocobo-mobile {
+    display: none; /* Oculta la imagen en pantallas más grandes */
+  }
+}
